@@ -1,0 +1,12 @@
+&d{yyyy-MM-dd HH:mm:ss} INFO  TestBase:18 - before test
+&d{yyyy-MM-dd HH:mm:ss} INFO  TestBase:24 - ---------Test Started
+&d{yyyy-MM-dd HH:mm:ss} INFO  TestBase:31 - Driver Quiting
+2017-08-13 22:28:42 INFO  TestBase:18 - before test
+2017-08-13 22:28:42 INFO  TestBase:24 - ---------Test Started
+2017-08-13 22:28:46 INFO  TestBase:31 - Driver Quiting
+2017-08-13 22:37:42 INFO  TestBase:18 - before test
+2017-08-13 22:37:42 INFO  TestBase:24 - ---------Test Started
+2017-08-13 22:37:47 INFO  TestBase:31 - Driver Quiting
+2017-08-13 22:41:43 INFO  TestBase:18 - before test
+2017-08-13 22:41:43 INFO  TestBase:24 - ---------Test Started
+2017-08-13 22:41:48 INFO  TestBase:31 - Driver Quiting
