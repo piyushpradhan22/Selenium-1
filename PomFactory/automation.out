@@ -10,3 +10,9 @@
 2017-08-13 22:41:43 INFO  TestBase:18 - before test
 2017-08-13 22:41:43 INFO  TestBase:24 - ---------Test Started
 2017-08-13 22:41:48 INFO  TestBase:31 - Driver Quiting
+2017-08-20 19:53:54 INFO  TestBase:18 - before test
+2017-08-20 19:53:54 INFO  TestBase:24 - ---------Test Started
+2017-08-20 19:53:59 INFO  TestBase:31 - Driver Quiting
+2017-08-20 21:28:34 INFO  TestBase:18 - before test
+2017-08-20 21:28:34 INFO  TestBase:24 - ---------Test Started
+2017-08-20 21:28:38 INFO  TestBase:31 - Driver Quiting

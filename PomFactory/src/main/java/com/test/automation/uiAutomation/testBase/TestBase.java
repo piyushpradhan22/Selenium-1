@@ -22,7 +22,7 @@ public class TestBase {
 
 	public void launchBrowser(String browser) {
 		if (browser.equalsIgnoreCase("firefox")) {
-			System.setProperty("webdriver.gecko.driver", "D://Selenium//Project//PomFactory//drivers//geckodriver.exe");
+			System.setProperty("webdriver.gecko.driver",System.getProperty("user.dir") + "//drivers//geckodriver.exe");
 			log.info("Launching Firefox");
 			driver = new FirefoxDriver();
 			driver.manage().window().maximize();
