@@ -1,41 +1,53 @@
 package com.test.automation.uiAutomation.uiActions;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-public class HomePage {
-	WebDriver driver;
+import com.test.automation.uiAutomation.testBase.TestBase;
 
-	@FindBy(className = "login")
+public class HomePage extends TestBase {
+
+	@FindBy(id = "customer_login_link")
 	WebElement signIn;
+	
+	@FindBy(id = "customer_logout_link")
+	WebElement signOut;
 
-	@FindBy(id = "email")
+	@FindBy(id = "CustomerEmail")
 	WebElement loginEmail;
 
-	@FindBy(id = "passwd")
+	@FindBy(id = "CustomerPassword")
 	WebElement loginPassword;
 
-	@FindBy(id = "SubmitLogin")
+	@FindBy(id = "customer_login")
 	WebElement submitButton;
 
-	@FindBy(xpath = ".//*[@id='center_column']/div[1]/ol/li")
-	WebElement aunthenticationFailed;
+	@FindBy(id = "customer_logout_link")
+	WebElement logOutDisplayed;
+	
+	@FindBy(id = "PreviewFrame")
+	WebElement homePageIframe;
 
 	public HomePage(WebDriver driver) {
 		PageFactory.initElements(driver, this);
 	}
 
-	public void loginToApplication(String hloginEmail, String hloginPassword) {
+	public void loginToApplication(WebDriver driver,String hloginEmail, String hloginPassword) {
+		driver.switchTo().frame(driver.findElement(By.id("PreviewFrame")));
 		signIn.click();
 		loginEmail.sendKeys(hloginEmail);
 		loginPassword.sendKeys(hloginPassword);
-		submitButton.click();
+		loginPassword.submit();
+		signOut.click();
+		driver.switchTo().defaultContent();
 	}
 
-	public String getTextOffailed() {
-		return aunthenticationFailed.getText();
+	public boolean mlogOutDisplayed() throws Exception {
+		Thread.sleep(5000);
+		return logOutDisplayed.isDisplayed();
 
 	}
 

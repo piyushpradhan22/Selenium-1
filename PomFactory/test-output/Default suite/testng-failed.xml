@@ -7,7 +7,7 @@
         <methods>
           <include name="setUp"/>
           <include name="endTest"/>
-          <include name="verifyLoginWithInvalidCredentials"/>
+          <include name="verifyLoginWithInvalidCredentials" invocation-numbers="2"/>
         </methods>
       </class> <!-- com.test.automation.uiAutomation.homePage.TC001_verifyLoginWithInvalidCredentials -->
     </classes>
