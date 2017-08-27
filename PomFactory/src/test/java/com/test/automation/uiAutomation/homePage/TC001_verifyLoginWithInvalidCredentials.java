@@ -29,8 +29,8 @@ public class TC001_verifyLoginWithInvalidCredentials extends TestBase {
 		}
 		hPage = new HomePage(driver);
 		log.info("---------Test Started");
-		hPage.loginToApplication(driver,aemail, apass);
-
+		hPage.loginToApplication(aemail, apass);
+		getScreenshot(apass);
 	}
 
 	@AfterTest

@@ -9,7 +9,8 @@ import org.openqa.selenium.support.PageFactory;
 import com.test.automation.uiAutomation.testBase.TestBase;
 
 public class HomePage extends TestBase {
-
+	WebDriver driver;
+   
 	@FindBy(id = "customer_login_link")
 	WebElement signIn;
 	
@@ -32,10 +33,11 @@ public class HomePage extends TestBase {
 	WebElement homePageIframe;
 
 	public HomePage(WebDriver driver) {
+		this.driver = driver;
 		PageFactory.initElements(driver, this);
 	}
 
-	public void loginToApplication(WebDriver driver,String hloginEmail, String hloginPassword) {
+	public void loginToApplication(String hloginEmail, String hloginPassword) {
 		driver.switchTo().frame(driver.findElement(By.id("PreviewFrame")));
 		signIn.click();
 		loginEmail.sendKeys(hloginEmail);
