@@ -1,17 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testng-results skipped="1" failed="0" ignored="0" total="10" passed="9">
   <reporter-output>
+    <line>
+      <![CDATA[<a href ='D:\Selenium\Github\PomFactory\src\main\java\com\test\automation\uiAutomation\screenshot\password_28_08_17_10_45_22.png'> <img src='D:\Selenium\Github\PomFactory\src\main\java\com\test\automation\uiAutomation\screenshot\password_28_08_17_10_45_22.png'height = '100' width = '100'/> </a>]]>
+    </line>
+    <line>
+      <![CDATA[<a href ='D:\Selenium\Github\PomFactory\src\main\java\com\test\automation\uiAutomation\screenshot\password_28_08_17_10_45_25.png'> <img src='D:\Selenium\Github\PomFactory\src\main\java\com\test\automation\uiAutomation\screenshot\password_28_08_17_10_45_25.png'height = '100' width = '100'/> </a>]]>
+    </line>
+    <line>
+      <![CDATA[<a href ='D:\Selenium\Github\PomFactory\src\main\java\com\test\automation\uiAutomation\screenshot\password_28_08_17_10_45_29.png'> <img src='D:\Selenium\Github\PomFactory\src\main\java\com\test\automation\uiAutomation\screenshot\password_28_08_17_10_45_29.png'height = '100' width = '100'/> </a>]]>
+    </line>
+    <line>
+      <![CDATA[<a href ='D:\Selenium\Github\PomFactory\src\main\java\com\test\automation\uiAutomation\screenshot\password_28_08_17_10_45_33.png'> <img src='D:\Selenium\Github\PomFactory\src\main\java\com\test\automation\uiAutomation\screenshot\password_28_08_17_10_45_33.png'height = '100' width = '100'/> </a>]]>
+    </line>
+    <line>
+      <![CDATA[<a href ='D:\Selenium\Github\PomFactory\src\main\java\com\test\automation\uiAutomation\screenshot\password_28_08_17_10_45_37.png'> <img src='D:\Selenium\Github\PomFactory\src\main\java\com\test\automation\uiAutomation\screenshot\password_28_08_17_10_45_37.png'height = '100' width = '100'/> </a>]]>
+    </line>
+    <line>
+      <![CDATA[<a href ='D:\Selenium\Github\PomFactory\src\main\java\com\test\automation\uiAutomation\screenshot\password_28_08_17_10_45_40.png'> <img src='D:\Selenium\Github\PomFactory\src\main\java\com\test\automation\uiAutomation\screenshot\password_28_08_17_10_45_40.png'height = '100' width = '100'/> </a>]]>
+    </line>
+    <line>
+      <![CDATA[<a href ='D:\Selenium\Github\PomFactory\src\main\java\com\test\automation\uiAutomation\screenshot\password_28_08_17_10_45_44.png'> <img src='D:\Selenium\Github\PomFactory\src\main\java\com\test\automation\uiAutomation\screenshot\password_28_08_17_10_45_44.png'height = '100' width = '100'/> </a>]]>
+    </line>
+    <line>
+      <![CDATA[<a href ='D:\Selenium\Github\PomFactory\src\main\java\com\test\automation\uiAutomation\screenshot\password_28_08_17_10_45_48.png'> <img src='D:\Selenium\Github\PomFactory\src\main\java\com\test\automation\uiAutomation\screenshot\password_28_08_17_10_45_48.png'height = '100' width = '100'/> </a>]]>
+    </line>
+    <line>
+      <![CDATA[<a href ='D:\Selenium\Github\PomFactory\src\main\java\com\test\automation\uiAutomation\screenshot\password_28_08_17_10_45_51.png'> <img src='D:\Selenium\Github\PomFactory\src\main\java\com\test\automation\uiAutomation\screenshot\password_28_08_17_10_45_51.png'height = '100' width = '100'/> </a>]]>
+    </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="218878" started-at="2017-08-27T20:09:15Z" finished-at="2017-08-27T20:12:54Z">
+  <suite name="Default suite" duration-ms="104406" started-at="2017-08-28T05:14:18Z" finished-at="2017-08-28T05:16:03Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="218878" started-at="2017-08-27T20:09:15Z" finished-at="2017-08-27T20:12:54Z">
+    <test name="Default test" duration-ms="104406" started-at="2017-08-28T05:14:18Z" finished-at="2017-08-28T05:16:03Z">
       <class name="com.test.automation.uiAutomation.homePage.TC001_verifyLoginWithInvalidCredentials">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.test.automation.uiAutomation.homePage.TC001_verifyLoginWithInvalidCredentials@192d43ce]" name="setUp" is-config="true" duration-ms="57355" started-at="2017-08-28T01:39:15Z" finished-at="2017-08-28T01:40:12Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.test.automation.uiAutomation.homePage.TC001_verifyLoginWithInvalidCredentials@1bce4f0a]" name="setUp" is-config="true" duration-ms="57247" started-at="2017-08-28T10:44:18Z" finished-at="2017-08-28T10:45:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifyLoginWithInvalidCredentials(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.test.automation.uiAutomation.homePage.TC001_verifyLoginWithInvalidCredentials@192d43ce]" name="verifyLoginWithInvalidCredentials" duration-ms="102567" started-at="2017-08-28T01:40:13Z" data-provider="loginData" finished-at="2017-08-28T01:41:55Z">
+        <test-method status="PASS" signature="verifyLoginWithInvalidCredentials(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.test.automation.uiAutomation.homePage.TC001_verifyLoginWithInvalidCredentials@1bce4f0a]" name="verifyLoginWithInvalidCredentials" duration-ms="6139" started-at="2017-08-28T10:45:16Z" data-provider="loginData" finished-at="2017-08-28T10:45:22Z">
           <params>
             <param index="0">
               <value>
@@ -30,9 +57,12 @@
             </param>
           </params>
           <reporter-output>
+            <line>
+              <![CDATA[<a href ='D:\Selenium\Github\PomFactory\src\main\java\com\test\automation\uiAutomation\screenshot\password_28_08_17_10_45_22.png'> <img src='D:\Selenium\Github\PomFactory\src\main\java\com\test\automation\uiAutomation\screenshot\password_28_08_17_10_45_22.png'height = '100' width = '100'/> </a>]]>
+            </line>
           </reporter-output>
         </test-method> <!-- verifyLoginWithInvalidCredentials -->
-        <test-method status="PASS" signature="verifyLoginWithInvalidCredentials(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.test.automation.uiAutomation.homePage.TC001_verifyLoginWithInvalidCredentials@192d43ce]" name="verifyLoginWithInvalidCredentials" duration-ms="10383" started-at="2017-08-28T01:41:55Z" data-provider="loginData" finished-at="2017-08-28T01:42:06Z">
+        <test-method status="PASS" signature="verifyLoginWithInvalidCredentials(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.test.automation.uiAutomation.homePage.TC001_verifyLoginWithInvalidCredentials@1bce4f0a]" name="verifyLoginWithInvalidCredentials" duration-ms="3665" started-at="2017-08-28T10:45:22Z" data-provider="loginData" finished-at="2017-08-28T10:45:26Z">
           <params>
             <param index="0">
               <value>
@@ -51,9 +81,12 @@
             </param>
           </params>
           <reporter-output>
+            <line>
+              <![CDATA[<a href ='D:\Selenium\Github\PomFactory\src\main\java\com\test\automation\uiAutomation\screenshot\password_28_08_17_10_45_25.png'> <img src='D:\Selenium\Github\PomFactory\src\main\java\com\test\automation\uiAutomation\screenshot\password_28_08_17_10_45_25.png'height = '100' width = '100'/> </a>]]>
+            </line>
           </reporter-output>
         </test-method> <!-- verifyLoginWithInvalidCredentials -->
-        <test-method status="SKIP" signature="verifyLoginWithInvalidCredentials(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.test.automation.uiAutomation.homePage.TC001_verifyLoginWithInvalidCredentials@192d43ce]" name="verifyLoginWithInvalidCredentials" duration-ms="3" started-at="2017-08-28T01:42:06Z" data-provider="loginData" finished-at="2017-08-28T01:42:06Z">
+        <test-method status="SKIP" signature="verifyLoginWithInvalidCredentials(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.test.automation.uiAutomation.homePage.TC001_verifyLoginWithInvalidCredentials@1bce4f0a]" name="verifyLoginWithInvalidCredentials" duration-ms="7" started-at="2017-08-28T10:45:26Z" data-provider="loginData" finished-at="2017-08-28T10:45:26Z">
           <params>
             <param index="0">
               <value>
@@ -109,7 +142,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLoginWithInvalidCredentials -->
-        <test-method status="PASS" signature="verifyLoginWithInvalidCredentials(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.test.automation.uiAutomation.homePage.TC001_verifyLoginWithInvalidCredentials@192d43ce]" name="verifyLoginWithInvalidCredentials" duration-ms="5033" started-at="2017-08-28T01:42:06Z" data-provider="loginData" finished-at="2017-08-28T01:42:11Z">
+        <test-method status="PASS" signature="verifyLoginWithInvalidCredentials(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.test.automation.uiAutomation.homePage.TC001_verifyLoginWithInvalidCredentials@1bce4f0a]" name="verifyLoginWithInvalidCredentials" duration-ms="3554" started-at="2017-08-28T10:45:26Z" data-provider="loginData" finished-at="2017-08-28T10:45:29Z">
           <params>
             <param index="0">
               <value>
@@ -128,9 +161,12 @@
             </param>
           </params>
           <reporter-output>
+            <line>
+              <![CDATA[<a href ='D:\Selenium\Github\PomFactory\src\main\java\com\test\automation\uiAutomation\screenshot\password_28_08_17_10_45_29.png'> <img src='D:\Selenium\Github\PomFactory\src\main\java\com\test\automation\uiAutomation\screenshot\password_28_08_17_10_45_29.png'height = '100' width = '100'/> </a>]]>
+            </line>
           </reporter-output>
         </test-method> <!-- verifyLoginWithInvalidCredentials -->
-        <test-method status="PASS" signature="verifyLoginWithInvalidCredentials(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.test.automation.uiAutomation.homePage.TC001_verifyLoginWithInvalidCredentials@192d43ce]" name="verifyLoginWithInvalidCredentials" duration-ms="4961" started-at="2017-08-28T01:42:11Z" data-provider="loginData" finished-at="2017-08-28T01:42:16Z">
+        <test-method status="PASS" signature="verifyLoginWithInvalidCredentials(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.test.automation.uiAutomation.homePage.TC001_verifyLoginWithInvalidCredentials@1bce4f0a]" name="verifyLoginWithInvalidCredentials" duration-ms="4053" started-at="2017-08-28T10:45:29Z" data-provider="loginData" finished-at="2017-08-28T10:45:33Z">
           <params>
             <param index="0">
               <value>
@@ -149,9 +185,12 @@
             </param>
           </params>
           <reporter-output>
+            <line>
+              <![CDATA[<a href ='D:\Selenium\Github\PomFactory\src\main\java\com\test\automation\uiAutomation\screenshot\password_28_08_17_10_45_33.png'> <img src='D:\Selenium\Github\PomFactory\src\main\java\com\test\automation\uiAutomation\screenshot\password_28_08_17_10_45_33.png'height = '100' width = '100'/> </a>]]>
+            </line>
           </reporter-output>
         </test-method> <!-- verifyLoginWithInvalidCredentials -->
-        <test-method status="PASS" signature="verifyLoginWithInvalidCredentials(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.test.automation.uiAutomation.homePage.TC001_verifyLoginWithInvalidCredentials@192d43ce]" name="verifyLoginWithInvalidCredentials" duration-ms="4563" started-at="2017-08-28T01:42:16Z" data-provider="loginData" finished-at="2017-08-28T01:42:20Z">
+        <test-method status="PASS" signature="verifyLoginWithInvalidCredentials(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.test.automation.uiAutomation.homePage.TC001_verifyLoginWithInvalidCredentials@1bce4f0a]" name="verifyLoginWithInvalidCredentials" duration-ms="3520" started-at="2017-08-28T10:45:33Z" data-provider="loginData" finished-at="2017-08-28T10:45:37Z">
           <params>
             <param index="0">
               <value>
@@ -170,9 +209,12 @@
             </param>
           </params>
           <reporter-output>
+            <line>
+              <![CDATA[<a href ='D:\Selenium\Github\PomFactory\src\main\java\com\test\automation\uiAutomation\screenshot\password_28_08_17_10_45_37.png'> <img src='D:\Selenium\Github\PomFactory\src\main\java\com\test\automation\uiAutomation\screenshot\password_28_08_17_10_45_37.png'height = '100' width = '100'/> </a>]]>
+            </line>
           </reporter-output>
         </test-method> <!-- verifyLoginWithInvalidCredentials -->
-        <test-method status="PASS" signature="verifyLoginWithInvalidCredentials(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.test.automation.uiAutomation.homePage.TC001_verifyLoginWithInvalidCredentials@192d43ce]" name="verifyLoginWithInvalidCredentials" duration-ms="4804" started-at="2017-08-28T01:42:20Z" data-provider="loginData" finished-at="2017-08-28T01:42:25Z">
+        <test-method status="PASS" signature="verifyLoginWithInvalidCredentials(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.test.automation.uiAutomation.homePage.TC001_verifyLoginWithInvalidCredentials@1bce4f0a]" name="verifyLoginWithInvalidCredentials" duration-ms="4086" started-at="2017-08-28T10:45:37Z" data-provider="loginData" finished-at="2017-08-28T10:45:41Z">
           <params>
             <param index="0">
               <value>
@@ -191,9 +233,12 @@
             </param>
           </params>
           <reporter-output>
+            <line>
+              <![CDATA[<a href ='D:\Selenium\Github\PomFactory\src\main\java\com\test\automation\uiAutomation\screenshot\password_28_08_17_10_45_40.png'> <img src='D:\Selenium\Github\PomFactory\src\main\java\com\test\automation\uiAutomation\screenshot\password_28_08_17_10_45_40.png'height = '100' width = '100'/> </a>]]>
+            </line>
           </reporter-output>
         </test-method> <!-- verifyLoginWithInvalidCredentials -->
-        <test-method status="PASS" signature="verifyLoginWithInvalidCredentials(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.test.automation.uiAutomation.homePage.TC001_verifyLoginWithInvalidCredentials@192d43ce]" name="verifyLoginWithInvalidCredentials" duration-ms="5081" started-at="2017-08-28T01:42:25Z" data-provider="loginData" finished-at="2017-08-28T01:42:30Z">
+        <test-method status="PASS" signature="verifyLoginWithInvalidCredentials(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.test.automation.uiAutomation.homePage.TC001_verifyLoginWithInvalidCredentials@1bce4f0a]" name="verifyLoginWithInvalidCredentials" duration-ms="3781" started-at="2017-08-28T10:45:41Z" data-provider="loginData" finished-at="2017-08-28T10:45:45Z">
           <params>
             <param index="0">
               <value>
@@ -212,9 +257,12 @@
             </param>
           </params>
           <reporter-output>
+            <line>
+              <![CDATA[<a href ='D:\Selenium\Github\PomFactory\src\main\java\com\test\automation\uiAutomation\screenshot\password_28_08_17_10_45_44.png'> <img src='D:\Selenium\Github\PomFactory\src\main\java\com\test\automation\uiAutomation\screenshot\password_28_08_17_10_45_44.png'height = '100' width = '100'/> </a>]]>
+            </line>
           </reporter-output>
         </test-method> <!-- verifyLoginWithInvalidCredentials -->
-        <test-method status="PASS" signature="verifyLoginWithInvalidCredentials(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.test.automation.uiAutomation.homePage.TC001_verifyLoginWithInvalidCredentials@192d43ce]" name="verifyLoginWithInvalidCredentials" duration-ms="7965" started-at="2017-08-28T01:42:30Z" data-provider="loginData" finished-at="2017-08-28T01:42:38Z">
+        <test-method status="PASS" signature="verifyLoginWithInvalidCredentials(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.test.automation.uiAutomation.homePage.TC001_verifyLoginWithInvalidCredentials@1bce4f0a]" name="verifyLoginWithInvalidCredentials" duration-ms="3490" started-at="2017-08-28T10:45:45Z" data-provider="loginData" finished-at="2017-08-28T10:45:48Z">
           <params>
             <param index="0">
               <value>
@@ -233,9 +281,12 @@
             </param>
           </params>
           <reporter-output>
+            <line>
+              <![CDATA[<a href ='D:\Selenium\Github\PomFactory\src\main\java\com\test\automation\uiAutomation\screenshot\password_28_08_17_10_45_48.png'> <img src='D:\Selenium\Github\PomFactory\src\main\java\com\test\automation\uiAutomation\screenshot\password_28_08_17_10_45_48.png'height = '100' width = '100'/> </a>]]>
+            </line>
           </reporter-output>
         </test-method> <!-- verifyLoginWithInvalidCredentials -->
-        <test-method status="PASS" signature="verifyLoginWithInvalidCredentials(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.test.automation.uiAutomation.homePage.TC001_verifyLoginWithInvalidCredentials@192d43ce]" name="verifyLoginWithInvalidCredentials" duration-ms="4659" started-at="2017-08-28T01:42:38Z" data-provider="loginData" finished-at="2017-08-28T01:42:43Z">
+        <test-method status="PASS" signature="verifyLoginWithInvalidCredentials(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.test.automation.uiAutomation.homePage.TC001_verifyLoginWithInvalidCredentials@1bce4f0a]" name="verifyLoginWithInvalidCredentials" duration-ms="3516" started-at="2017-08-28T10:45:48Z" data-provider="loginData" finished-at="2017-08-28T10:45:52Z">
           <params>
             <param index="0">
               <value>
@@ -254,9 +305,12 @@
             </param>
           </params>
           <reporter-output>
+            <line>
+              <![CDATA[<a href ='D:\Selenium\Github\PomFactory\src\main\java\com\test\automation\uiAutomation\screenshot\password_28_08_17_10_45_51.png'> <img src='D:\Selenium\Github\PomFactory\src\main\java\com\test\automation\uiAutomation\screenshot\password_28_08_17_10_45_51.png'height = '100' width = '100'/> </a>]]>
+            </line>
           </reporter-output>
         </test-method> <!-- verifyLoginWithInvalidCredentials -->
-        <test-method status="PASS" signature="endTest()[pri:0, instance:com.test.automation.uiAutomation.homePage.TC001_verifyLoginWithInvalidCredentials@192d43ce]" name="endTest" is-config="true" duration-ms="10743" started-at="2017-08-28T01:42:43Z" finished-at="2017-08-28T01:42:54Z">
+        <test-method status="PASS" signature="endTest()[pri:0, instance:com.test.automation.uiAutomation.homePage.TC001_verifyLoginWithInvalidCredentials@1bce4f0a]" name="endTest" is-config="true" duration-ms="10692" started-at="2017-08-28T10:45:52Z" finished-at="2017-08-28T10:46:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endTest -->

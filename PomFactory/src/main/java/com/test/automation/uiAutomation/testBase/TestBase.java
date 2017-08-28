@@ -13,6 +13,7 @@ import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.Reporter;
 
 import com.test.automation.uiAutomation.excelReader.ExcelReader;
 
@@ -57,14 +58,16 @@ public class TestBase {
 
 	public void getScreenshot(String sName) {
 		try {
-			DateFormat df = new SimpleDateFormat("yy_MM_dd_hh_mm");
+			DateFormat df = new SimpleDateFormat("dd_MM_yy_hh_mm_ss");
 			Date date = new Date();
 			String dateStamp = df.format(date);
 			File scrfile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
-			FileUtils.copyFile(scrfile,
-					new File(System.getProperty("user.dir")
-							+ "//src//main//java//com//test//automation//uiAutomation//screenshot//" + sName + "_"
-							+ dateStamp + ".png"));
+			File destFile = new File(System.getProperty("user.dir")
+					+ "//src//main//java//com//test//automation//uiAutomation//screenshot//" + sName + "_" + dateStamp
+					+ ".png");
+			FileUtils.copyFile(scrfile, destFile);
+			Reporter.log("<a href ='" + destFile.getAbsolutePath() + "'> <img src='" + destFile.getAbsolutePath()
+					+ "'height = '100' width = '100'/> </a>");
 		} catch (Exception e) {
 			System.out.println("Error taking Screenshot :");
 			e.printStackTrace();
