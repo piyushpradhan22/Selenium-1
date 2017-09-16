@@ -1,8 +1,7 @@
 package com.test.automation.uiAutomation.homePage;
 
 import org.testng.SkipException;
-import org.testng.annotations.AfterTest;
-import org.testng.annotations.BeforeTest;
+import org.testng.annotations.BeforeClass;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 import com.test.automation.uiAutomation.testBase.TestBase;
@@ -16,7 +15,7 @@ public class TC001_verifyLoginWithInvalidCredentials extends TestBase {
 		return testRecords;
 	}
 
-	@BeforeTest
+	@BeforeClass
 	public void setUp() throws Exception {
 		init();
 		log.info("before test");
@@ -30,15 +29,5 @@ public class TC001_verifyLoginWithInvalidCredentials extends TestBase {
 		hPage = new HomePage(driver);
 		log.info("---------Test Started");
 		hPage.loginToApplication(aemail, apass);
-		getScreenshot(apass);
 	}
-
-	@AfterTest
-	public void endTest() throws InterruptedException {
-		log.info("Driver Quiting");
-		Thread.sleep(10000);
-		driver.quit();
-
-	}
-
 }

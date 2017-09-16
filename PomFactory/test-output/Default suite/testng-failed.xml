@@ -6,8 +6,10 @@
       <class name="com.test.automation.uiAutomation.homePage.TC001_verifyLoginWithInvalidCredentials">
         <methods>
           <include name="setUp"/>
+          <include name="beforeMethod"/>
           <include name="endTest"/>
-          <include name="verifyLoginWithInvalidCredentials" invocation-numbers="2"/>
+          <include name="afterMethod"/>
+          <include name="verifyLoginWithInvalidCredentials"/>
         </methods>
       </class> <!-- com.test.automation.uiAutomation.homePage.TC001_verifyLoginWithInvalidCredentials -->
     </classes>

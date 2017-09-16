@@ -19,5 +19,7 @@
 	<classpathentry kind="con" path="org.testng.TESTNG_CONTAINER"/>
 	<classpathentry kind="lib" path="D:/Selenium/client-combined-3.5.2-nodeps.jar"/>
 	<classpathentry kind="lib" path="D:/Selenium/selenium-server-standalone-3.5.2.jar"/>
+	<classpathentry kind="lib" path="D:/Selenium/extentreports-2.41.2.jar"/>
+	<classpathentry kind="lib" path="D:/Selenium/freemarker-2.3.26-incubating.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
