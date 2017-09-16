@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="com.test.automation.uiAutomation.homePage.TC001_verifyLoginWithInvalidCredentials">
+        <methods>
+          <include name="setUp"/>
+          <include name="beforeMethod"/>
+          <include name="endTest"/>
+          <include name="afterMethod"/>
+          <include name="verifyLoginWithInvalidCredentials"/>
+        </methods>
+      </class> <!-- com.test.automation.uiAutomation.homePage.TC001_verifyLoginWithInvalidCredentials -->
+    </classes>
+  </test> <!-- Test(failed) -->
+  <test name="Test1(failed)">
+    <classes>
+      <class name="com.test.automation.uiAutomation.homePage.TC001_verifyLoginWithInvalidCredentials">
+        <methods>
+          <include name="setUp"/>
+          <include name="beforeMethod"/>
+          <include name="endTest"/>
+          <include name="afterMethod"/>
+          <include name="verifyLoginWithInvalidCredentials"/>
+        </methods>
+      </class> <!-- com.test.automation.uiAutomation.homePage.TC001_verifyLoginWithInvalidCredentials -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+</suite> <!-- Failed suite [Suite] -->
