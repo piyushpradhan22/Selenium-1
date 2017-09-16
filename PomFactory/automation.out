@@ -463,3 +463,7 @@
 2017-09-17 01:58:35 INFO  TestBase:30 - ---------Test Started
 2017-09-17 01:58:42 INFO  TestBase:30 - ---------Test Started
 2017-09-17 01:58:49 INFO  TestBase:129 - Browser closed
+2017-09-17 02:04:29 INFO  TestBase:21 - before test
+2017-09-17 02:04:29 INFO  TestBase:30 - ---------Test Started
+2017-09-17 02:04:36 INFO  TestBase:30 - ---------Test Started
+2017-09-17 02:04:43 INFO  TestBase:129 - Browser closed
