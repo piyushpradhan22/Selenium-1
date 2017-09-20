@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="689" started-at="2017-09-17T06:02:57Z" finished-at="2017-09-17T06:02:57Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.Cucumber.framework.runner.NewtourLoginFeature@4f7d0008]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Test" duration-ms="689" started-at="2017-09-17T06:02:57Z" finished-at="2017-09-17T06:02:57Z">
+      <class name="com.Cucumber.framework.runner.NewtourLoginFeature">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.Cucumber.framework.runner.NewtourLoginFeature@4f7d0008]" name="setUpClass" is-config="true" duration-ms="529" started-at="2017-09-17T11:32:57Z" finished-at="2017-09-17T11:32:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.Cucumber.framework.runner.NewtourLoginFeature@4f7d0008]" name="feature" duration-ms="32" started-at="2017-09-17T11:32:57Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2017-09-17T11:32:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Login to Newtours]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.Cucumber.framework.runner.NewtourLoginFeature@4f7d0008]" name="tearDownClass" is-config="true" duration-ms="14" started-at="2017-09-17T11:32:57Z" finished-at="2017-09-17T11:32:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.Cucumber.framework.runner.NewtourLoginFeature -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
